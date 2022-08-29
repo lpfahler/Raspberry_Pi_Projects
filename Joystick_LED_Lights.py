@@ -29,7 +29,7 @@ from smbus import SMBus
 ads7830_commands = (0x84, 0xc4, 0x94, 0xd4, 0xa4, 0xe4, 0xb4, 0xf4)
 
 # function to read from ADS7830
-# From M Heidenreich code and youtube video on ADS7830
+# From M. Heidenreich code and youtube video on ADS7830
 def read_ads7830(input):
     bus.write_byte(0x4b, ads7830_commands[input])
     return bus.read_byte(0x4b)
