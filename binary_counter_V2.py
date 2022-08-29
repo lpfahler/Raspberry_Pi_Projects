@@ -1,4 +1,5 @@
 # Python program to blink five LEDs as a binary counter from zero to 31
+# Inspired by Lesson 5 of Paul McWhorter's Raspberry Pi Class.
 # Lori Pfahler
 # August 2022
 
